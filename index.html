@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="w-full max-w-screen-2xl mx-auto bg-headercolor">
+        <nav class="w-[95%] mx-auto py-4 flex justify-between items-center">
+            <div class="logo_wrapper shrink grow-0">
+                <a href="#" class="logo flex justify-start items-center gap-2">
+                    <img src="images/logo.png" alt="logo" class="img-fluid max-w-[10%] sm:max-w-[12%]">
+                    <span class="font-sans font-medium text-black capitalize text-base
+                    sm:text-2xl ">Quickstart</span>
+                </a>
+            </div>
+            <div class="menu_wrapper ease-in-out duration-500 -translate-x-full xp:translate-x-0 invisible xp:visible hidden xp:block w-full xp:w-auto h-screen xp:h-auto xp:block grow shrink 
+            fixed xp:static top-0 start-0 
+            bg-mainpimary xp:bg-transparent" id="menumobile">
+                <div class="menu_inner w-full flex justify-center items-center relative h-screen xp:h-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 block xp:hidden 
+                    absolute end-4 top-4 w-[8%] sm:w-[4%] h-[12%] text-white" id="closemobile">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                    <ul class="w-full flex justify-center items-center gap-10 flex-col xp:flex-row">
+                        <li class="nav-item">
+                            <a href="#"
+                                class="font-sans font-semibold text-white xp:text-black xp:text-base capitalize">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="font-sans font-semibold text-white xp:text-black xp:text-base capitalize">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="font-sans font-semibold text-white xp:text-black xp:text-base capitalize">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="font-sans font-semibold text-white xp:text-black xp:text-base capitalize">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="font-sans font-semibold text-white xp:text-black xp:text-base capitalize">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="font-sans font-semibold text-white xp:text-black xp:text-base capitalize">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_bar shrink flex gap-4 justify-end items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 xp:hidden" id="menuopen">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <a href="#" class="bg-mainpimary text-white px-5 py-1 text-md font-sans font-semibold capitalize
+                rounded-full hidden sm:block">
+                    get started
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+    <section class="banner bg-mainpimary mx-auto max-w-screen-2xl py-12">
+        <div
+            class="container max-w-full w-[95%] mx-auto flex gap-10 md:gap-5 justify-center items-center md:items-start flex-col md:flex-row">
+            <div class="content order-2 md:order-1 *:font-nunito md:pt-6 md:pe-20 lg:pt-10 lg:pe-40 shrink lg:w-[65%]">
+                <h1 class="text-2xl md:text-3xl ip:text-4xl lg:text-5xl font-bold text-white">We Collect hight Quality
+                    Leads
+                </h1>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+            mt-4 mb-6 md:mt-3 md:mb-5 lg:mt-6 lg:mb-8 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Voluptatibus aspernatur aut fuga quam nemo
+                    velit corrupti animi voluptate dolorem perferendis vero id veniam quaerat expedita laboriosam
+                    distinctio, pariatur in numquam. </p>
+                <a href="#" class="text-base font-semibold px-10 pt-2 pb-2 bg-white text-black rounded-full">Contact
+                    Us</a>
+            </div>
+            <div class="banner_image order-1 md:order-2 flex justify-center md:justify-end shrink lg:w-[35%]">
+                <img src="images/banner1.jpg" alt="banner" class="img-fluid rounded-3xl max-w-[70%] md:max-w-[100%]">
+            </div>
+        </div>
+    </section>
+
+    <section class="will_do mx-auto max-w-screen-2xl py-12 *:font-nunito text-center">
+        <h1 class="text-2xl md:text-3xl ip:text-4xl lg:text-5xl font-bold text-black">We Collect hight Quality Leads
+        </h1>
+    </section>
+
+
+    <section class="will_do_content mx-auto max-w-screen-2xl pt-0 pb-12 *:font-nunito text-center">
+        <div class="container max-w-full w-[90%] mx-auto flex gap-10 md:gap-5 justify-center 
+items-center md:items-start flex-col xp:flex-row">
+            <div class="do_wrapper shrink border border-gray-300 rounded-2xl">
+                <img src="images/building.png" alt="building" class="img-fluid w-1/4 mx-auto mt-10 my-5">
+                <h2 class="text-xl md:text-2xl font-semibold text-black">link building</h2>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+        mt-4 mb-4 md:mt-3 md:mb-3 lg:mt-6 lg:mb-6 text-black px-4">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Totam voluptates voluptas minus inventore voluptatem
+                    beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non cumque,
+                    maiores
+                    ipsam?</p>
+                <a href="#" class="mb-5 block"><i
+                        class="fa fa-arrow-right text-white bg-mainpimary rounded-full py-[9px] px-[11px] text-sm font-extralight"></i></a>
+            </div>
+            <div class="do_wrapper shrink border border-gray-300 rounded-2xl">
+                <img src="images/building.png" alt="building" class="img-fluid w-1/4 mx-auto mt-10 my-5">
+                <h2 class="text-xl md:text-2xl font-semibold text-black">link building</h2>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+        mt-4 mb-4 md:mt-3 md:mb-3 lg:mt-6 lg:mb-6 text-black px-4">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Totam voluptates voluptas minus inventore voluptatem
+                    beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non cumque,
+                    maiores
+                    ipsam?</p>
+                <a href="#" class="mb-5 block"><i
+                        class="fa fa-arrow-right text-white bg-mainpimary rounded-full py-[9px] px-[11px] text-sm font-extralight"></i></a>
+            </div>
+            <div class="do_wrapper shrink border border-gray-300 rounded-2xl">
+                <img src="images/building.png" alt="building" class="img-fluid w-1/4 mx-auto mt-10 my-5">
+                <h2 class="text-xl md:text-2xl font-semibold text-black">link building</h2>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+        mt-4 mb-4 md:mt-3 md:mb-3 lg:mt-6 lg:mb-6 text-black px-4">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Totam voluptates voluptas minus inventore voluptatem
+                    beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non cumque,
+                    maiores
+                    ipsam?</p>
+                <a href="#" class="mb-5 block"><i
+                        class="fa fa-arrow-right text-white bg-mainpimary rounded-full py-[9px] px-[11px] text-sm font-extralight"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="banner bg-[url('../images/peralax.jpg')] bg-center bg-cover bg-no-repeat bg-fixed 
+mx-auto max-w-screen-2xl py-12 mb-0 relative z-[1] after:content-[''] after:absolute after:top-0 after:start-0 
+after:w-full after:h-full after:-z-[1] after:bg-[#0000006b]">
+        <div
+            class="container max-w-full w-[95%] mx-auto flex gap-10 md:gap-5 justify-center items-center md:items-start flex-col md:flex-row">
+            <div class="banner_image flex justify-center md:justify-end shrink lg:w-[35%]">
+                <img src="images/shopify.jpg" alt="shopify" class="img-fluid rounded-3xl max-w-[70%] md:max-w-[100%]">
+            </div>
+            <div class="content *:font-nunito md:pt-6 md:ps-20 lg:pt-10 lg:ps-40 shrink lg:w-[65%]">
+                <h1 class="text-2xl md:text-3xl ip:text-4xl lg:text-5xl font-bold text-white capitalize">
+                    step to build a successful digital product
+                </h1>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+        mt-4 mb-6 md:mt-3 md:mb-5 lg:mt-6 lg:mb-8 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Voluptatibus aspernatur aut fuga quam nemo velit corrupti animi voluptate dolorem perferendis
+                    vero id veniam quaerat expedita laboriosam distinctio, pariatur in numquam. </p>
+                <a href="#" class="text-base font-semibold px-10 pt-2 pb-2 bg-white text-black rounded-full">Contact
+                    Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="will_do mx-auto max-w-screen-2xl py-12 *:font-nunito text-center md:px-[200px] lg:px-[260px]">
+        <h1 class="text-2xl md:text-3xl ip:text-4xl lg:text-5xl font-bold text-black capitalize">
+            generating new customers via online mode
+        </h1>
+    </section>
+
+    <section class="will_do_content mx-auto max-w-screen-2xl pt-0 pb-12 *:font-nunito text-center">
+        <div class="container max-w-full w-[90%] mx-auto flex gap-10 md:gap-y-10 justify-center 
+items-center md:items-start flex-col xp:flex-row xp:flex-wrap *:xp:w-[45%]">
+            <div class="do_wrapper shrink border border-gray-300 rounded-xl 
+        shadow-customshadow flex flex-col md:flex-row px-3 md:px-0 justify-between items-center py-4">
+                <img src="images/social_media.png" alt="social_media" class="img-fluid w-[20%] xp:w-[30%] mx-auto">
+                <div class="inner_div text-start pe-0 md:pe-4">
+                    <h2
+                        class="capitalize text-xl md:text-2xl font-semibold text-black text-center md:text-start my-2 md:my-0">
+                        Social Media</h2>
+                    <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium my-1 text-black">Lorem, ipsum
+                        dolor sit amet consectetur adipisicing
+                        elit. Totam voluptates voluptas minus inventore voluptatem
+                        beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non
+                        cumque,
+                        maiores
+                        ipsam?</p>
+                </div>
+            </div>
+            <div class="do_wrapper shrink border border-gray-300 rounded-xl 
+          shadow-customshadow flex flex-col md:flex-row px-3 md:px-0 justify-between items-center py-4">
+                <img src="images/influencer.png" alt="influencer" class="img-fluid w-[20%] xp:w-[30%] mx-auto">
+                <div class="inner_div text-start pe-0 md:pe-4">
+                    <h2
+                        class="capitalize text-xl md:text-2xl font-semibold text-black text-center md:text-start my-2 md:my-0">
+                        influencer marketing</h2>
+                    <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium text-black">Lorem, ipsum dolor
+                        sit amet consectetur adipisicing
+                        elit. Totam voluptates voluptas minus inventore voluptatem
+                        beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non
+                        cumque,
+                        maiores
+                        ipsam?</p>
+                </div>
+            </div>
+            <div class="do_wrapper shrink border border-gray-300 rounded-xl 
+        shadow-customshadow flex flex-col md:flex-row px-3 md:px-0 justify-between items-center py-4">
+                <img src="images/content.png" alt="content" class="img-fluid w-[20%] xp:w-[30%] mx-auto">
+                <div class="inner_div text-start pe-0 md:pe-4">
+                    <h2
+                        class="capitalize text-xl md:text-2xl font-semibold text-black text-center md:text-start my-2 md:my-0">
+                        content marketing</h2>
+                    <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium text-black">Lorem, ipsum dolor
+                        sit amet consectetur adipisicing
+                        elit. Totam voluptates voluptas minus inventore voluptatem
+                        beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non
+                        cumque,
+                        maiores
+                        ipsam?</p>
+                </div>
+            </div>
+            <div class="do_wrapper shrink border border-gray-300 rounded-xl 
+        shadow-customshadow flex flex-col md:flex-row px-3 md:px-0 justify-between items-center py-4">
+                <img src="images/referal.png" alt="referal" class="img-fluid w-[20%] xp:w-[30%] mx-auto">
+                <div class="inner_div text-start pe-0 md:pe-4">
+                    <h2
+                        class="capitalize text-xl md:text-2xl font-semibold text-black text-center md:text-start my-2 md:my-0">
+                        referal programs</h2>
+                    <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium text-black">Lorem, ipsum dolor
+                        sit amet consectetur adipisicing
+                        elit. Totam voluptates voluptas minus inventore voluptatem
+                        beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non
+                        cumque,
+                        maiores
+                        ipsam?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="will_do mx-auto max-w-screen-2xl py-12 *:font-nunito text-center md:px-[200px] lg:px-[260px]">
+        <h1 class="text-2xl md:text-3xl ip:text-4xl lg:text-5xl font-bold text-black capitalize">
+            tips and tricks from our experts
+        </h1>
+    </section>
+
+
+    <section class="will_do_content mx-auto max-w-screen-2xl pt-0 pb-12 *:font-nunito text-center">
+        <div class="container max-w-full w-[90%] mx-auto flex gap-10 md:gap-5 justify-center 
+items-center md:items-start flex-col xp:flex-row">
+            <div class="do_wrapper shrink border border-gray-300 rounded-2xl pb-8 *:font-nunito">
+                <video src="images/mockup2.mp4" loop autoplay muted
+                    class="w-full rounded-tl-2xl rounded-tr-2xl"></video>
+                <h2 class="text-xl md:text-2xl font-semibold text-black mt-8">Your design</h2>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+    mt-4 mb-4 md:mt-3 md:mb-3 lg:mt-6 lg:mb-6 text-black px-4">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Totam voluptates voluptas minus inventore voluptatem
+                    beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non cumque,
+                    maiores
+                    ipsam?</p>
+                <a href="#" class="text-base font-semibold px-10 pt-2 pb-2 bg-mainpimary text-white rounded-full 
+            block w-[70%] xp:w-[75%] xl:w-[60%] mx-auto">Connect With Us</a>
+            </div>
+            <div class="do_wrapper shrink border border-gray-300 rounded-2xl pb-8">
+                <video src="images/mockup1.mp4" loop autoplay muted
+                    class="w-full rounded-tl-2xl rounded-tr-2xl"></video>
+                <h2 class="text-xl md:text-2xl font-semibold text-black mt-8">Tablet Mockup</h2>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+    mt-4 mb-4 md:mt-3 md:mb-3 lg:mt-6 lg:mb-6 text-black px-4">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Totam voluptates voluptas minus inventore voluptatem
+                    beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non cumque,
+                    maiores
+                    ipsam?</p>
+                <a href="#" class="text-base font-semibold px-10 pt-2 pb-2 bg-mainpimary text-white rounded-full 
+            block w-[70%] xp:w-[75%] xl:w-[60%] mx-auto">Connect With Us</a>
+            </div>
+            <div class="do_wrapper shrink border border-gray-300 rounded-2xl pb-8">
+                <video src="images/mockup.mp4" loop autoplay muted class="w-full rounded-tl-2xl rounded-tr-2xl"></video>
+                <h2 class="text-xl md:text-2xl font-semibold text-black mt-8">Mockup 3d</h2>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium 
+    mt-4 mb-4 md:mt-3 md:mb-3 lg:mt-6 lg:mb-6 text-black px-4">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Totam voluptates voluptas minus inventore voluptatem
+                    beatae autem, rem esse voluptatibus, provident ullam corporis animi iure officia nostrum non cumque,
+                    maiores
+                    ipsam?</p>
+                <a href="#" class="text-base font-semibold px-10 pt-2 pb-2 bg-mainpimary text-white rounded-full 
+            block w-[70%] sm:w-[60%] xp:w-[75%] xl:w-[60%] mx-auto">Connect With Us</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="will_do mx-auto max-w-screen-2xl pt-0 pb-12 *:font-nunito text-center md:px-[200px] lg:px-[260px]">
+        <h1 class="text-2xl md:text-3xl ip:text-4xl lg:text-5xl font-bold text-black capitalize">
+            connect with us
+        </h1>
+    </section>
+
+    <section class="banner bg-mainpimary mx-auto max-w-screen-2xl py-0 mb-10">
+        <div class="container max-w-full w-[100%] mx-auto flex flex-wrap *:w-full *:lg:w-1/2 justify-center
+     items-center md:items-start flex-col md:flex-row">
+            <div class="content *:font-nunito px-7 py-7 md:px-20 md:py-20 lg:pe-40 shrink">
+                <div class="inner_form">
+                    <h2 class="text-left text-4xl font-semibold text-white capitalize mb-4">
+                        talk with us
+                    </h2>
+                </div>
+                <form action="#" method="post">
+                    <div class="flex flex-col mb-6">
+                        <label for="exampleFormControlInput1" class="form-label text-white text-base font-medium">Email
+                            address</label>
+                        <input type="email" class="mt-2 p-2 rounded-sm form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="flex flex-col mb-6">
+                        <label for="exampleFormControlTextarea1"
+                            class="form-label text-white text-base font-medium">Example
+                            textarea</label>
+                        <textarea class="mt-2 p-2 rounded-sm form-control" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
+                    </div>
+                    <div class="">
+                        <button class="text-base font-semibold px-10 pt-2 pb-2 
+                    bg-white text-black rounded-full" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+            <div class="banner_image shrink">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.951046296!2d76.76356261822156!3d28.644287349748502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1726501981819!5m2!1sen!2sin"
+                    width="100%" height="496px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-full mx-auto">
+        <section class="footer_top w-[95%] mx-auto pt-0 pb-0 md:pb-0 md:pt-0 lg:pt-4 lg:pb-10 flex justify-between 
+        items-start flex-wrap lg:flex-nowrap
+        *:mb-6 *:md:mb-10">
+            <div class="footer_logo shrink w-full md:w-[48%] lg:w-[39%] lg:pe-20">
+                <a href="#" class="logo flex justify-start items-center gap-2 mb-4">
+                    <img src="images/logo.png" alt="logo" class="img-fluid max-w-[8%] xs:max-w-[6%]
+                    sm:max-w-[5%] md:max-w-[8%]">
+                    <span class="font-sans font-medium text-black capitalize text-2xl">Quickstart</span>
+                </a>
+                <p class="text-base md:text-sm ip:text-base lg:text-base font-medium 
+                ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque excepturi, quia dolorum voluptates
+                    fugiat ipsa quasi cum tempora, cumque amet hic ratione unde vero. Ut provident itaque totam cum
+                    expedita!</p>
+            </div>
+            <div class="footer_links shrink w-full md:w-[48%] lg:w-[20%]">
+                <h2 class="text-2xl md:text-2xl font-semibold text-black mb-3 capitalize">links</h2>
+                <ul class=" p-0 m-0 list-none *:capitalize">
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Home</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">About Us</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Features</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Services</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Pricing</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_links shrink w-full md:w-[48%] lg:w-[20%]">
+                <h2 class="text-2xl md:text-2xl font-semibold text-black mb-3 capitalize">Navigation</h2>
+                <ul class=" p-0 m-0 list-none *:capitalize">
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Home</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">About Us</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Features</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Services</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">Pricing</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#" class="text-black font-nunito text-base font-medium">contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_links shrink w-full md:w-[48%] lg:w-[21%]">
+                <h2 class="text-2xl md:text-2xl font-semibold text-black mb-3 capitalize">Information</h2>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-normal mb-3 flex items-center gap-2">
+                    <img src="images/Location.png" alt="Location" class="img-fluid w-[15%]">
+                    New Delhi India 110094</p>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-normal mb-3 flex items-center gap-2">
+                    <img src="images/phone.png" alt="phone" class="img-fluid w-[15%]">
+                    +91-8695865969</p>
+                <p class="text-lg md:text-sm ip:text-base lg:text-base font-normal mb-3 flex items-center gap-2">
+                    <img src="images/mail.png" alt="mail" class="img-fluid w-[15%]">
+                    info@gmail.com</p>
+            </div>
+        </section>
+        <section class="footer_bottom bg-mainpimary mx-auto max-w-screen-2xl py-4 text-center">
+            <p class="text-lg md:text-sm ip:text-base lg:text-base font-medium m-0 text-white">@Copyright all right
+                reserved 2024</p>
+        </section>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
